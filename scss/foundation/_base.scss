@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Kiwi+Maru&family=Maiden+Orange&family=Shippori+Mincho&family=Source+Sans+Pro:wght@400;900&family=Train+One&display=swap");
+
+html {
+  font-family: $body-font;
+  font-size: 10px;
+  color: $body-font-color;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 3.9rem 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.jp1 {
+  font-family: $jp-font1;
+  text-shadow: 0 0 20px black;
+}
+
+.jp2 {
+  font-family: $jp-font2;
+  text-shadow: 0 0 1px #fff, 0 0 20px #0cc, 0 0 10px #0cc, 0 0 10px #0ff,
+    0 0 60px #0ff;
+}
+
+@media screen and (min-width: 900px) {
+  section {
+    padding: 7.9rem;
+  }
+}
+

@@ -1,0 +1,20 @@
+.p-menu {
+  &__img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+
+    img:nth-child(1) {
+      border-top-left-radius: 1rem;
+    }
+    img:nth-child(2) {
+      border-top-right-radius: 1rem;
+    }
+    img:nth-child(3) {
+      border-bottom-left-radius: 1rem;
+    }
+    img:nth-child(4) {
+      border-bottom-right-radius: 1rem;
+    }
+  }
+}

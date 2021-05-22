@@ -1,0 +1,13 @@
+.c-sub-headline {
+  font-size: 8.5rem;
+  font-family: $secondary-font;
+  color: $secondary-font-color;
+  font-weight: 100;
+  line-height: 0.4;
+  letter-spacing: 2px;
+
+  &__first-letter {
+    text-transform: uppercase;
+    font-size: 10.3rem;
+  }
+}

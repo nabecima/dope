@@ -1,0 +1,17 @@
+.p-banner {
+  $parent: ".p-banner";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &-menu {
+    @extend #{$parent};
+    background-image: url("../images/banner1.jpg");
+  }
+
+  &-blend {
+    @extend #{$parent};
+    background-position: top 20% center;
+    background-image: url("../images/banner2.jpg");
+  }
+}

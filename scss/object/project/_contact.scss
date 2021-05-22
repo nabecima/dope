@@ -1,0 +1,50 @@
+.p-contact {
+  &__form-input {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+    input,
+    textarea {
+      border: 2px solid #bcbcbc;
+      border-radius: 50px;
+      padding: 1rem 1.5rem;
+      width: 100%;
+      text-align: left;
+    }
+
+    textarea {
+      height: 200px;
+      border-radius: 10px;
+      resize: vertical;
+
+      @media screen and (max-width: 576px) {
+        height: 100px;
+      }
+    }
+  }
+
+  &__form-button {
+    font-size: 2rem;
+
+    button {
+      padding: 1rem 0;
+      width: 100%;
+      border-radius: 50px;
+      background-color: #8e2de2;
+      color: #fff;
+    }
+  }
+  &__map-wrapper {
+    position: relative;
+    padding-top: 50%;
+    width: 100%;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
