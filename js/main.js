@@ -28,10 +28,6 @@ const baseConfig = function (origin, distance = "5rem") {
   };
 };
 
-// sr.reveal(".c-global-headline .c-headline", {
-//   scale: 0.1,
-// });
-
 sr.reveal(".animate-left", baseConfig("left"));
 sr.reveal(".animate-right", baseConfig("right"));
 sr.reveal(".animate-bottom", baseConfig("bottom"));

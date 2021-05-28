@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
+    overflow: hidden;
 
     img:nth-child(1) {
       border-top-left-radius: 1rem;
